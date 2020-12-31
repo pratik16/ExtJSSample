@@ -1,0 +1,2 @@
+///*Minified by P*/
+Ext.define('Regardz.model.configuration.ItemType', { extend: 'Ext.data.Model', fields: ['ItemTypeId', 'ItemTypeName','ItemTypeCode', 'DepartmentName', 'SubDepartmentName', 'VatRateId', 'NoVatRateFlag', 'NoVatReimburse', 'CreatedDate', 'CreatedBy', 'UpdatedDate', 'UpdatedBy'] });

@@ -1,0 +1,27 @@
+﻿Ext.define('Regardz.model.bookingwizard.BookingTrackingEvents', {
+    extend: 'Ext.data.Model',
+    fields: ['BookingEventId',
+        'BookingEventTrackingId',
+        'StatusId',
+        'EventId',
+        'EventName',
+        'Status',
+        'BookingEventDate',
+        'FromTime',
+        'ToTime',
+        'IsLoud',
+        'DoNotMove',
+        'IsSharable',
+        'OutletId',
+        'OutletName',
+        'Quantity',
+        'DayNumber',
+        'OriginalStatusId',
+        'IsCanceled',
+        'RoomSetupId',
+        'IsMainEvent',
+        'RoomId',
+        'IsMatchWithCapacity',
+        'IsPartOfPackage'
+    ]
+});
